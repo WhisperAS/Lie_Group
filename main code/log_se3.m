@@ -1,5 +1,5 @@
 function xi = log_se3(T)
-% log_se3_matrix 计算SE(3)齐次变换矩阵的对数映射，返回6x1运动旋量 [omega; v]
+% log_se3_matrix 计算SE(3)齐次变换矩阵的对数映射，返回6x1运动旋量 [omega; v]，不对旋量做归一化处理
 % 对应2010年Ruibo He论文式（46）-（48）
 % 输入：
 %   T - 4x4齐次变换矩阵 [R, b; 0, 1]
